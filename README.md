@@ -1,5 +1,5 @@
 
-# test
+# README Generator
 
 ## Table of Contents
 * [Description](#description)
@@ -11,19 +11,19 @@
 * [Questions](#questions)
 
 ## Description
-test
+a command-line application that dynamically generates a README.md from a user's input.
 
 ## Installation instructions
-test
+Clone the repo into local machine. Open terminal in code editor and install inquirer and fs packages from npm.
 
 ## Usage Info
-test
+Run node indez.js in integrated terminal to invoke the application. Answer the questions that are prompted in the terminal. Once all prompts are adddressed README.md file will be generated.
 
 ## License
-MIT License
+Unlicensed
 
 ## Contributors
-test
+
 
 ## Test
 undefined
@@ -31,7 +31,7 @@ undefined
 ## Questions
 Contact me:
 
-GitHub:[test]()
+GitHub:[TyRodriguez]()
 
-Email:[test]()
+Email:[tyrant23t@gmail.com]()
 
