@@ -1,5 +1,6 @@
-
-# test
+function generateMarkdown(data) {
+  return `
+# ${data.title}
 
 ## Table of Contents
 * [Description](#description)
@@ -11,27 +12,31 @@
 * [Questions](#questions)
 
 ## Description
-test
+${data.description}
 
 ## Installation instructions
-test
+${data.installation}
 
 ## Usage Info
-test
+${data.usage}
 
 ## License
-MIT License
+${data.license}
 
 ## Contributors
-test
+${data.contributors}
 
 ## Test
-undefined
+${data.test}
 
 ## Questions
 Contact me:
 
-GitHub:[test]()
+GitHub:[${data.username}]()
 
-Email:[test]()
+Email:[${data.email}]()
 
+`;
+}
+
+module.exports = generateMarkdown;
