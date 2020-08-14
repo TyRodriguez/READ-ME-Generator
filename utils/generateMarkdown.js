@@ -32,9 +32,9 @@ ${data.test}
 ## Questions
 Contact me:
 
-GitHub:[${data.username}]()
+GitHub:[${data.username}](https://github.com/${data.username})
 
-Email:[${data.email}]()
+Email:[${data.email}]
 
 `;
 }
